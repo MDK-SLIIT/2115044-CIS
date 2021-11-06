@@ -11,23 +11,18 @@ import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 import javax.swing.Timer;
 import API.Email;
-
 import java.util.ArrayList;
-
 import java.util.List;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Scanner;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
-
-
 /**
  *
  * @author Kanishka Gimhan
  */
 public class GAME extends javax.swing.JFrame {
-
     /**
      * Creates new form GAME
      */
