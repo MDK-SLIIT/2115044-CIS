@@ -455,7 +455,7 @@ public class GAME extends javax.swing.JFrame {
             }
         });
 
-        jLabel13.setFont(new java.awt.Font("Stencil", 1, 18)); // NOI18N
+        jLabel13.setFont(new java.awt.Font("Stencil", 1, 25)); // NOI18N
         jLabel13.setText("LEVEL 3");
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
@@ -602,7 +602,7 @@ public class GAME extends javax.swing.JFrame {
             }
         });
 
-        jLabel14.setFont(new java.awt.Font("Stencil", 1, 18)); // NOI18N
+        jLabel14.setFont(new java.awt.Font("Stencil", 1, 25)); // NOI18N
         jLabel14.setText("LEVEL 4");
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
@@ -694,12 +694,12 @@ public class GAME extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
                         .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(5, 5, 5)))
-                .addContainerGap(169, Short.MAX_VALUE))
+                .addContainerGap(131, Short.MAX_VALUE))
         );
 
         jTabbedPane3.addTab("Level 4", jPanel11);
 
-        jLabel15.setFont(new java.awt.Font("Stencil", 1, 18)); // NOI18N
+        jLabel15.setFont(new java.awt.Font("Stencil", 1, 25)); // NOI18N
         jLabel15.setText("LEVEL 5");
 
         webimage.setText("jLabel20");
@@ -709,20 +709,23 @@ public class GAME extends javax.swing.JFrame {
         jPanel12Layout.setHorizontalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel12Layout.createSequentialGroup()
-                .addGap(421, 421, 421)
-                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(webimage)
-                    .addComponent(jLabel15))
-                .addContainerGap(558, Short.MAX_VALUE))
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addGap(421, 421, 421)
+                        .addComponent(jLabel15))
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(webimage)))
+                .addContainerGap(535, Short.MAX_VALUE))
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel12Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel15)
-                .addGap(114, 114, 114)
+                .addGap(56, 56, 56)
                 .addComponent(webimage)
-                .addContainerGap(306, Short.MAX_VALUE))
+                .addContainerGap(357, Short.MAX_VALUE))
         );
 
         jTabbedPane3.addTab("Level 5", jPanel12);
@@ -815,7 +818,7 @@ public class GAME extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 1059, Short.MAX_VALUE)
+            .addComponent(jTabbedPane3, javax.swing.GroupLayout.Alignment.TRAILING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel16)
